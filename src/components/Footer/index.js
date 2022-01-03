@@ -3,7 +3,7 @@ import { FooterContainer, Copyright, Socials } from './FooterElements'
 import {FaFacebook, FaLinkedin, FaYoutube} from 'react-icons/fa'
 
 const Footer = () => {
-    const prop = {'padding-right': '20%'}
+    const prop = {'maxWidth': '370px', 'padding-right': '12%'}
     return (
         <>
             <FooterContainer>
