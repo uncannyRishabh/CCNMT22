@@ -1,14 +1,14 @@
 # Getting Started with CCNMT
 
-<li> <h3>Install Node JS in your machine</h3> </li>
+### <li>Install Node JS in your machine</li>
 From here https://nodejs.org/en/download/
 
-<li> <h3>(Recommended) Install VS Code in your machine</h3> </li>
+### <li>(Recommended) Install VS Code in your machine</li>
 From here https://code.visualstudio.com/download
 
-<li> <h3>Clone this Repository</h3> </li>
+### <li>Clone this Repository</li>
 
-<li> <h3>In the project directory, you can run:</h3> </li>
+### <li>In the project directory, you can run:</li>
 
 ### `npm start`
 
