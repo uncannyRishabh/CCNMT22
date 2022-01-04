@@ -1,8 +1,18 @@
 # Getting Started with CCNMT
 
-In the project directory, you can run:
+<li> <h3>Install Node JS in your machine</h3> </li>
+From here https://nodejs.org/en/download/
+
+<li> <h3>(Recommended) Install VS Code in your machine</h3> </li>
+From here https://code.visualstudio.com/download
+
+<li> <h3>Clone this Repository</h3> </li>
+
+<li> <h3>In the project directory, you can run:</h3> </li>
 
 ### `npm start`
+
+##### if `npm start` gives issues, run first `npm audit fix --force`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
