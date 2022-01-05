@@ -12,12 +12,13 @@ From here https://code.visualstudio.com/download
 
 ### `npm start`
 
-##### if `npm start` gives issues, run first `npm audit fix --force`
+##### if `npm start` gives issues in the first run.
+try `npm audit fix --force` before `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes. \
 You may also see any lint errors in the console.
 
 ### `npm test`
