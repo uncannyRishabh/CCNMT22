@@ -13,16 +13,16 @@ const HomePage = () => {
     return (
         <HomeContainer id='Home'>
             <HLogoContainer>
-                <img src={SurtechLogo} alt='none' width={185} />
-                <img src={JISGRPLogo} alt='none' width={65}/>
+                <img src={SurtechLogo} alt='none' /*width='185px'*/ height='40px' />
+                <img src={JISGRPLogo} alt='none' /*width='65px'*/ height='55px'/>
             </HLogoContainer>
 
             <HomeContent>
-                <h1>International Conference on Communication and Nano-Microwave Technology (CCNMT - 2022)</h1>
-                <STCH1>Organized By : Department of Computer Science and Engineering <br/>
+                <li><h1><br/><br/>International Conference on Communication and Nano-Microwave Technology (CCNMT - 2022)</h1></li>
+                <li><STCH1><br/>Organized By : Department of Computer Science and Engineering <br/>
                 Venue : Dr. Sudhir Chandra Sur Degree Engineering College Kolkata, India <br/>
-                Date {'&'} Time : 9th March 2022  |  6:30 PM (GMT +5:30)</STCH1>
-                <Button to='Register'
+                Date {'&'} Time : 9th March 2022  |  6:30 PM (GMT +5:30)</STCH1><br/><br/></li>
+                <li><Button to='Register'
                     activeClass="active"
                     spy={true}
                     smooth={true}
@@ -30,11 +30,9 @@ const HomePage = () => {
                     duration={500}>
                     <h3>REGISTER</h3>
                 </Button>
-
+                <br/><br/></li>
             </HomeContent>
-            
         </HomeContainer>
-
         
     )
 }

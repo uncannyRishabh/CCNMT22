@@ -17,10 +17,42 @@ const Sidebar = ({isOpen,toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='Objective' onClick={toggle}>OBJECTIVE</SidebarLink>
-                    <SidebarLink to='Tracks' onClick={toggle}>CONFERENCE TRACKS</SidebarLink>
-                    <SidebarLink to='Contact' onClick={toggle}>CONTACT</SidebarLink>
-                    <SidebarLink to='Download' onClick={toggle}>DOWNLOAD BROCHURE</SidebarLink>
+                    <SidebarLink to='Home' onClick={toggle}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}>HOME</SidebarLink>
+                    <SidebarLink to='Objective' onClick={toggle}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}>OBJECTIVE</SidebarLink>
+                    <SidebarLink to='AboutUs' onClick={toggle}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}>ABOUT US</SidebarLink>
+                    <SidebarLink to='Tracks' onClick={toggle}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}>CONFERENCE TRACKS</SidebarLink>
+                    <SidebarLink to='Contact' onClick={toggle}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}>CONTACT</SidebarLink>
+                    <SidebarLink to='Download' onClick={toggle}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-80}
+                    duration={500}>DOWNLOAD BROCHURE</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to="/Register" onClick={toggle}>REGISTER</SidebarRoute>

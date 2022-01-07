@@ -8,12 +8,17 @@ export const Button = styled(Link)`
     justify-content: center;
     align-items: center;
     background: #253C76;
-    height: 52px;
-    width: 160px;
+    height: 56px;
+    width: 230px;
     margin-top: 12px;
     padding: 14px;
     color: #fff;
-    font-size: .8rem;
+    font-size: 1.0rem;
     text-decoration: none;
     cursor: pointer;
+    
+    &:hover {
+        font-size: 1.1rem;
+        /* box-shadow: darkblue  2px 2px; */
+    }
 `

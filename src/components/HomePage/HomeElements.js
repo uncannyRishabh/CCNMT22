@@ -3,54 +3,39 @@ import styled from "styled-components";
 export const HomeContainer = styled.div`
     background: #DADCEB;
     display: flex;
-    padding: 0 30px;
-    height: 600px;
+    flex-direction: column;
     z-index: 1;
-    align-content: flex-start;
-    
-`
-
-export const HomeBg = styled.div`
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width:100%;
-    height: 100%;
-    overflow: hidden;
 `
 
 export const HLogoContainer = styled.div`
-    width: 95%;
-    position: absolute;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top:3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    @media screen and (max-width: 410px){
+        display: none;
+    }
 `
 
 export const HomeContent = styled.div`
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 120px 100px 90px;
-    justify-content: space-between;
+    display: flex;
     flex-direction: column;
-    padding-right: 30%;
-    top: 30%;
-    left: 5%;
-    right: 5%;
+    list-style: none;
+    padding-left: 6%;
+    padding-right: 35%;
+    padding-top:3%;
+    padding-bottom: 10%;
 
     @media screen and (max-width:980px) {
-        padding-right: 10%;
-        grid-template-rows: 150px 120px 70px;
-    }
-
-    @media screen and (max-width:545px) {
-        padding-right: 5%;
-        grid-template-rows: 180px 120px;
+        padding-right: 15%;
     }
     
+    @media screen and (max-width:680px) {
+        padding-right: 5%;
+        align-items: center;
+    }
 `
 
 export const STCH1 = styled.p`

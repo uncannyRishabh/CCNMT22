@@ -1,10 +1,10 @@
 import React from 'react'
-import {CardContainer, Title, Subtitle } from './CardElements'
+import {CardContainer, Title, Subtitle, Image } from './CardElements'
 
 export default function Card({ image, title, subtitle }) {
     return (
       <CardContainer>
-            <img src={image} alt='none' height={'280px'} width={'330px'} />
+            <Image src={image} alt='none' style={{width:330, height:280}}/> 
             <Title>{title}</Title>
             <Subtitle>{subtitle}</Subtitle>
       </CardContainer>
