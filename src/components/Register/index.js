@@ -29,7 +29,7 @@ const Register = () => {
                     </li>
                 </TextContainer>
                 <FormContainer>
-                    <CForm>
+                    <CForm id='Form'>
                     <h4 style={{marginBottom:'10px', marginTop:'15px',
                                 color:'#390011'}}>Fill this form to Register for this Event</h4>
                     <CFIeld 
@@ -50,12 +50,15 @@ const Register = () => {
                         name='Phone'
                         placeholder='Enter Phone Number'
                     />
+                    {/* TODO : CREATE A SEPERATE BUTTON COMPONENT */}
                     <Button 
                         type={'submit'}
                         id='submit'
                         name='Submit'
                         placeholder='REGISTER NOW'
                         cursor='pointer'
+                        offset={-100}
+                        to='Form'
                     >REGISTER NOW</Button>
                     </CForm>
                 </FormContainer>

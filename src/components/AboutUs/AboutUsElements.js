@@ -17,6 +17,7 @@ export const AboutUsHeading = styled.h2`
     font-size: 1.8rem;
     color: #173058;
     background: #DADCEB;
+    font-family: 'Poppins';
 `
 
 export const AboutUsParagraph = styled.p`

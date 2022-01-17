@@ -1,6 +1,6 @@
-import React from "react";
-import { Zoom } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
+import React from "react"
+import { Zoom } from "react-slideshow-image"
+import "react-slideshow-image/dist/styles.css"
 import img1 from "../../assets/slideshow/clg-crop.jpg"
 import img2 from "../../assets/slideshow/clg-crop.jpg"
 import img3 from "../../assets/slideshow/clg-crop.jpg"
@@ -19,13 +19,13 @@ const zoomOutProperties = {
     scale: 0.4,
     arrows: false
   };
-  
-  const Slideshow = () => {
+
+  const Slideshow = ({imageWidth}) => {
     return (
-      <div className="slide-container">
+      <div className="slide-container" style={{ width: imageWidth }}>
         <Zoom {...zoomOutProperties}>
           {fadeImages.map((each, index) => (
-            <img key={index} style={{ width: "100%" }} src={each} alt="none"/>
+            <img key={index} style={{ width: "100%"}} src={each} alt="none"/>
           ))}
         </Zoom>
       </div>

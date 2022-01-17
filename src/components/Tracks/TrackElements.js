@@ -8,6 +8,7 @@ export const TracksHeading = styled.h2`
     font-size: 1.8rem;
     color: #001345;
     background: #fff;
+    font-family: 'Poppins';
 `
 
 export const TracksList = styled.div`
@@ -17,4 +18,6 @@ export const TracksList = styled.div`
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 6%;
 `

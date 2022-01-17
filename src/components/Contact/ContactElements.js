@@ -7,6 +7,7 @@ export const ContactHeading = styled.h2`
     background: #DADCEB;
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Poppins';
 `
 
 export const ContactUList = styled.div`

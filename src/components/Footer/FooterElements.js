@@ -38,10 +38,18 @@ export const Links = styled.div`
 
 export const Socials = styled.div`
     display: flex;
-    color: #fff;
     background: #081728;
     list-style: none;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+`
+
+export const IHolder = styled.a`
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(200,200,200,0.5);
 `

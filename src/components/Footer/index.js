@@ -1,17 +1,17 @@
 import React from 'react'
-import { FooterContainer, Copyright, Links, Socials } from './FooterElements'
+import { FooterContainer, Copyright, Links, Socials, IHolder } from './FooterElements'
 import {FaFacebook, FaLinkedin, FaYoutube} from 'react-icons/fa'
-import {Link as LinkR} from 'react-router-dom';
+// import {Link as LinkR} from 'react-router-dom';
 
 const Footer = () => {
     const paraS = {'maxWidth': '370px',
-        'padding-right': '12%',
-        'line-height': '25px',
-        'margin-bottom': '25px',
+        'paddingRight': '12%',
+        'lineHeight': '25px',
+        'marginBottom': '25px',
         'display':'flex',
-        'justify-contents':'flex-start'}
-    // const listS = {'line-height':'35px', 'margin-bottom':'5%'}
-    const listS2 = {'line-height':'30px'}
+        'justifyContents':'flex-start'}
+
+    const listS2 = {'lineHeight':'30px'}
     
     return (
         <>
@@ -26,10 +26,12 @@ const Footer = () => {
                 </Links>
             </FooterContainer>
             <Socials style={listS2}> 
-                <li style={{'font-size':'1.2rem'}}>
-                    <a target="_blank" href="https://www.facebook.com/SurTechCollege/" rel="noreferrer"><FaFacebook/></a> &nbsp;&nbsp;
-                    <a target="_blank" href="https://www.linkedin.com/company/dr-sudhir-chandra-sur-institute-of-technology-sports-complex/" rel="noreferrer"><FaLinkedin/></a>&nbsp;&nbsp;
-                    <a target="_blank" href="https://www.youtube.com/channel/UCXtDx43W4KtIlSIjbrXMx-A" rel="noreferrer"><FaYoutube/></a></li>
+                <IHolder target="_blank" href="https://www.youtube.com/channel/UCXtDx43W4KtIlSIjbrXMx-A" rel="noreferrer">
+                    <FaYoutube color='fff'/></IHolder> &nbsp;&nbsp;
+                <IHolder target="_blank" href="https://www.facebook.com/SurTechCollege/" rel="noreferrer">
+                    <FaFacebook color='fff'/></IHolder> &nbsp;&nbsp;
+                <IHolder target="_blank" href="https://www.linkedin.com/company/dr-sudhir-chandra-sur-institute-of-technology-sports-complex/" rel="noreferrer">
+                    <FaLinkedin color='fff'/></IHolder>
             </Socials>
             <Copyright >SURTECH © 2022 All Rights Reserved</Copyright>
         </>

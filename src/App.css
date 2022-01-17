@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Spline Sans', sans-serif;
 }
 
 .slide-container{
@@ -16,4 +16,20 @@
 
 .Objective{
   background-color: lightgray;
+}
+
+.slide{
+  display: flex;
+  width: 45%;
+  justify-self: center;
+}
+
+.heroLiItem{
+  display: flex;
+}
+
+@media screen and (max-width: 980px){
+  .slide{
+      width: 90%;
+  }
 }

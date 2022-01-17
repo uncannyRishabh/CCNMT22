@@ -8,6 +8,7 @@ export const RegisterHeading = styled.h2`
     background: #F9EEEE;
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Poppins';
 `
 
 export const RegisterContainer = styled.div`
@@ -25,17 +26,17 @@ export const RegisterContainer = styled.div`
 
 export const TextContainer = styled.div`
     width: 45%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #001345;
     @media screen and (max-width : 960px){
         width: 500px;
     }
 `
 
-export const FormContainer = styled.form`
+export const FormContainer = styled.div`
     display: flex;
     width: 50%;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-left: 5%;
     margin-bottom: 5%;
     @media screen and (max-width : 960px){
@@ -69,13 +70,12 @@ export const CForm = styled.form`
     padding: 20px;
     padding-bottom: 35px;
     border-radius: 10px;
-    box-shadow: 1px 1px 2px 2px #FFE4E4;
+    box-shadow: 1px 1px 12px rgba(0,0,0,0.2);
     @media screen and (max-width : 960px){
         width: 100%;
         padding-left: 6%;
         padding-right: 6%;
         margin-right: 6%;
-        
     }
 `
 

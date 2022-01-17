@@ -76,9 +76,13 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-
+    font-family: Poppins;
     &.active{
         border-bottom: 3px solid #01bf71; //TODO: change to yello
+    }
+
+    &:hover{
+        text-shadow: 0px 0px 8px rgba(255,255,255,0.5);
     }
 `
 
@@ -92,10 +96,10 @@ export const NavBtn = styled.div`
 `
 
 export const NavBtnLink = styled(LinkS)`
-    border-radius: 10px;
+    border-radius: 22px;
     background: #253C76;
     white-space: nowrap;
-    padding: 14px 22px;
+    padding: 10px 18px;
     color: whitesmoke;
     font-size: 16px;
     outline: none;
@@ -103,7 +107,7 @@ export const NavBtnLink = styled(LinkS)`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
-
+    font-family: Poppins;
     &:hover{
         transition: all 0.2s ease-in-out;
         background: #fff;

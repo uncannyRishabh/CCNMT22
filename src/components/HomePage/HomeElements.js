@@ -1,10 +1,26 @@
 import styled from "styled-components";
+import {Link} from 'react-scroll';
+import HeroSVG from '../../assets/herosvg.svg'
 
 export const HomeContainer = styled.div`
-    background: #DADCEB;
+    background-image: url(${HeroSVG});
+    background-repeat: no-repeat;
+    background-color: #DADCEB;
+    background-position: 96% 100%;
+    background-size: 50%;
     display: flex;
     flex-direction: column;
     z-index: 1;
+    transition: 'background' 0.3s ease-in-out;
+
+    @media screen and (max-width:960px){
+        background: #DADCEB;
+    }
+
+    @media screen and (max-width:680px){
+        align-items:center
+    }
+
 `
 
 export const HLogoContainer = styled.div`
@@ -25,36 +41,60 @@ export const HomeContent = styled.div`
     list-style: none;
     padding-left: 6%;
     padding-right: 35%;
-    padding-top:3%;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 
-    @media screen and (max-width:980px) {
+    @media screen and (max-width:960px) {
         padding-right: 15%;
     }
     
     @media screen and (max-width:680px) {
         padding-right: 5%;
-        align-items: center;
     }
 `
 
-export const STCH1 = styled.p`
-    line-height: 1.5;
+export const EventIC = styled.div`
+    display: flex;
+    flex-direction: column;
 `
 
-export const RegisterBtn = styled.div`
-    border-radius: 10px;
-    position: relative;
+export const CSpan = styled.span`
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 30px;
+    width: 30px;
+    margin-right: 6px;
+    background-color: rgba(105,145,255,0.5);
+    border-radius: 20px;
+`
+
+export const Button = styled(Link)`
+    display: flex;
+    height: 60px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
     background: #253C76;
-    height: 52px;
-    width: 160px;
-    margin-top: 12px;
-    padding: 14px;
-    color: #fff;
-    font-size: .8rem;
-    text-decoration: none;
+    color: white;
     cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 1.2rem;
+    box-shadow: 1px 2px 10px 0px #253C76;
+    &:hover {
+        background: #2C4EA5;
+        font-size: 1.25rem;        
+    }
+
+    &:active {
+        margin-top: 2px;
+    }
+
+    @media screen and (max-width:680px) {
+        width: 100%;
+    }
 `

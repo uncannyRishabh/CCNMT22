@@ -39,7 +39,7 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8,60px);
+    grid-template-rows: repeat(7,60px);
     text-align: center;
 
     @media screen and (max-width:480px){
@@ -57,7 +57,7 @@ export const SidebarLink = styled(LinkS)`
     transition: 0ms.2s ease-in-out;
     color: #fff;
     cursor: pointer;
-
+    font-family: Poppins;
     &:hover{
         color: #01bf71;
         transition: 0.2s ease-in-out;
@@ -71,20 +71,20 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
-    background: cornflowerblue;
+    background: #253C76;
     white-space: nowrap;
-    padding: 16px 64px;
-    color: darkblue;
+    padding: 16px 84px;
+    color: #fff;
     font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
     transition: all 0.2 ease-in-out;
     text-decoration: none;
-
+    font-family: Poppins;
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: darkblue;
+        color: #253C76;
     }
 `
