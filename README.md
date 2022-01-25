@@ -4,7 +4,7 @@ SPA (Single Page Application) built using React and Express Js.
 
 Follow Link to check it out :
 
-### https://github.com/uncannyRishabh/ERS
+### https://uncannyrishabh.github.io/CCNMT22/
 
 # Getting Started with CCNMT
 
