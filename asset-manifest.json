@@ -1,34 +1,36 @@
 {
   "files": {
-    "main.css": "/CCNMT22/static/css/main.f019f6ce.chunk.css",
-    "main.js": "/CCNMT22/static/js/main.9cfa4aed.chunk.js",
-    "main.js.map": "/CCNMT22/static/js/main.9cfa4aed.chunk.js.map",
+    "main.css": "/CCNMT22/static/css/main.61970279.chunk.css",
+    "main.js": "/CCNMT22/static/js/main.b4f13638.chunk.js",
+    "main.js.map": "/CCNMT22/static/js/main.b4f13638.chunk.js.map",
     "runtime-main.js": "/CCNMT22/static/js/runtime-main.3ba5876a.js",
     "runtime-main.js.map": "/CCNMT22/static/js/runtime-main.3ba5876a.js.map",
     "static/css/2.799c978e.chunk.css": "/CCNMT22/static/css/2.799c978e.chunk.css",
-    "static/js/2.cc054f8b.chunk.js": "/CCNMT22/static/js/2.cc054f8b.chunk.js",
-    "static/js/2.cc054f8b.chunk.js.map": "/CCNMT22/static/js/2.cc054f8b.chunk.js.map",
+    "static/js/2.cb6e7759.chunk.js": "/CCNMT22/static/js/2.cb6e7759.chunk.js",
+    "static/js/2.cb6e7759.chunk.js.map": "/CCNMT22/static/js/2.cb6e7759.chunk.js.map",
     "index.html": "/CCNMT22/index.html",
-    "precache-manifest.e3521d5bff353e852d8a2258b9a6ac74.js": "/CCNMT22/precache-manifest.e3521d5bff353e852d8a2258b9a6ac74.js",
+    "precache-manifest.769874db143af2289938112948e7e9dc.js": "/CCNMT22/precache-manifest.769874db143af2289938112948e7e9dc.js",
     "service-worker.js": "/CCNMT22/service-worker.js",
     "static/css/2.799c978e.chunk.css.map": "/CCNMT22/static/css/2.799c978e.chunk.css.map",
-    "static/css/main.f019f6ce.chunk.css.map": "/CCNMT22/static/css/main.f019f6ce.chunk.css.map",
-    "static/js/2.cc054f8b.chunk.js.LICENSE.txt": "/CCNMT22/static/js/2.cc054f8b.chunk.js.LICENSE.txt",
+    "static/css/main.61970279.chunk.css.map": "/CCNMT22/static/css/main.61970279.chunk.css.map",
+    "static/js/2.cb6e7759.chunk.js.LICENSE.txt": "/CCNMT22/static/js/2.cb6e7759.chunk.js.LICENSE.txt",
     "static/media/College_full.jpg": "/CCNMT22/static/media/College_full.b62edbfc.jpg",
     "static/media/ai.jpg": "/CCNMT22/static/media/ai.1b07db57.jpg",
     "static/media/clg-crop.jpg": "/CCNMT22/static/media/clg-crop.5a57771a.jpg",
+    "static/media/contactUs.svg": "/CCNMT22/static/media/contactUs.c98974a8.svg",
     "static/media/dscsdec logo.png": "/CCNMT22/static/media/dscsdec logo.4913bdf2.png",
     "static/media/herosvg.svg": "/CCNMT22/static/media/herosvg.b041aed4.svg",
     "static/media/jis-logo.png": "/CCNMT22/static/media/jis-logo.9064adf3.png",
     "static/media/mmwave.jpg": "/CCNMT22/static/media/mmwave.635fc2b5.jpg",
     "static/media/registerSvg.svg": "/CCNMT22/static/media/registerSvg.875452d8.svg",
+    "static/media/App.css": "/CCNMT22/static/media/trackBG.f716c201.jpg",
     "static/media/vlsi.jpg": "/CCNMT22/static/media/vlsi.d0784387.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3ba5876a.js",
     "static/css/2.799c978e.chunk.css",
-    "static/js/2.cc054f8b.chunk.js",
-    "static/css/main.f019f6ce.chunk.css",
-    "static/js/main.9cfa4aed.chunk.js"
+    "static/js/2.cb6e7759.chunk.js",
+    "static/css/main.61970279.chunk.css",
+    "static/js/main.b4f13638.chunk.js"
   ]
 }
